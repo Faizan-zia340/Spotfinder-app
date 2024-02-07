@@ -1,0 +1,395 @@
+        *{
+            margin: 0px;
+        }
+        #header{
+            position: fixed;
+            width: 100%;
+            height: 85px;
+            background-color: white;
+            box-shadow: 8px 2px rgb(219, 218, 218);
+        }
+        #img{
+            margin-top: 15px;
+            position: absolute;
+            left: 50px;
+            width:200px;
+        }
+        img:hover{
+            cursor: pointer;
+        }
+        #ul{
+            position: absolute;
+            list-style-type: none;
+            left: 30%;
+            top: 30px;
+            display: inline-flex;
+        }
+        li{
+            border: none;
+            padding: 10px;
+            justify-content: space-between;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 20px;
+        }
+        li:hover{
+            color: rgb(255, 5, 5);
+            cursor: pointer;
+            font-size: 22px;
+        }
+        #ic1{
+            position: absolute;
+            right: 15%;
+            width: 100px;
+            top: 50px;
+        }
+        #but1{
+            position: absolute;
+            right:150px;
+            border: none;
+            padding: 15px;
+            background-color: white;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            top: 25px;  
+            font-size: 20px;
+        }
+        #but1:hover{
+            color: #ff0000;
+            cursor: pointer;
+        }
+        #but2{
+            position: absolute;
+            right:30px;
+            border: none;
+            padding: 8px;
+            background-color: red;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            top: 36px;  
+            font-size: 20px;
+            color: white;
+            border-radius: 30px;
+            width: 110px;
+        }
+        #but2:hover{
+            cursor: pointer;
+        }
+        #cont{
+            width: 93%;
+            height: 100%;
+            background-color: rgb(236, 234, 234);
+            position: absolute;
+            top: 140px;
+            left: 40px;
+            z-index: -1;
+            border-radius: 5px;
+        }
+        .pics{
+            position: absolute;
+            top: 5%;
+            right: 20px;
+            width: 450px;
+            height: 300px;
+            border: 2px solid #ff0000;
+            border-radius: 15px;
+            border: none;
+        }
+        #img2{
+           position: absolute;
+           top: -10px;
+           width: 950px;
+           height: 720px;
+           right: 30px;
+        }
+        #p1{
+            position: absolute;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 60px;
+            color: rgb(88, 88, 88);
+            top: 70px;
+            left: 50px;
+        }
+        #p2{
+            position: absolute;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 60px;
+            color: rgb(255, 5, 5);
+            top: 70px;
+            left: 260px;
+        }
+        #p3{
+            position: absolute;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 25px;
+            color: rgb(114, 113, 113);
+            top: 150px;
+            left: 50px;
+        }
+        #input{
+            position: absolute;
+            top: 33%;
+            left: 50px;
+            width: 500px;
+            height: 60px;
+            background-color: #ffffff;
+            border: 2px solid rgb(255, 5, 5);
+            border-radius: 5px;
+        }
+        #ic2{
+            position: absolute;
+            top: 28px;
+            left: 25px;
+        }
+        #int{
+            position: absolute;
+            left: 70px;
+            top: 15px;
+            width: 80%;
+            height: 30px;
+            background-color:#ffffff;
+            border: none;
+            font-size: large;
+            outline: none;
+        }
+        #input2{
+            position: absolute;
+            top: 46%;
+            left: 50px;
+            width: 500px;
+            height: 55px;
+            background-color: #ffffff;
+            border: 2px solid rgb(255, 5, 5);
+            border-radius: 5px;
+        }
+        #ic3{
+            position: absolute;
+            top: 26px;
+            left: 23px;
+        }
+        #select{
+            position: absolute;
+            left: 70px;
+            top: 13px;
+            width: 80%;
+            height: 30px;
+            background-color:#ffffff;
+            border: none;
+            font-size: large;
+            outline: none;
+            color: #6b6a6a;
+        }
+        #checkin{
+            position: absolute;
+            top: 59%;
+            left: 50px;
+            width: 220px;
+            height: 60px;
+            background-color: #ffffff;
+            border: 2px solid rgb(255, 5, 5);
+            border-radius: 5px;
+        }
+        #ic4{
+            position: absolute;
+            top: 28px;
+            left: 18px;
+        }
+        #datetime{
+            position: absolute;
+            left: 60px;
+            top: 15px;
+            width: 55%;
+            height: 30px;
+            background-color:#ffffff;
+            border: none;
+            font-size: large;
+            outline: none;
+        }
+        #datetime::placeholder{
+            color: #ff0000;
+        }
+        #checkout{
+            position: absolute;
+            top: 59%;
+            left: 320px;
+            width: 230px;
+            height: 60px;
+            background-color: #ffffff;
+            border: 2px solid rgb(255, 5, 5);
+            border-radius: 5px;
+        }
+        #ic5{
+            position: absolute;
+            top: 28px;
+            left: 18px;
+        }
+        #but3{
+            position: absolute;
+            border: none;
+            padding:20px;
+            background-color: rgb(238, 49, 49);
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            top: 75%;  
+            font-size: 20px;
+            color: white;
+            border-radius: 30px;
+            width: 350px;
+            left: 50px;
+        }
+        #line{
+            width: 97%;
+            height: 150px;
+            border:none;
+            position: absolute;
+            top: 130%;
+            z-index: -1;
+            left: 20px;
+        }
+        #h1{
+            color: #413f3f;
+            text-align: center;
+            font-size: 60px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        #h3{
+            color: #696767;
+            text-align: center;
+            font-size: 30px;
+            font-family: 'Gill Sans', 'Gill Sans MT';
+        }
+        #cards{
+            position: absolute;
+            top: 155%;
+            width: 95%;
+            height: 500px;
+            left: 25px;
+            border: none;
+            z-index: -1;
+        }
+        #c1{
+            position: absolute;
+            top: 10%;
+            left: 6%;
+            width: 350px;
+            height: 400px;
+            border:1px solid rgb(189, 188, 188);
+            border-radius: 9px;
+            cursor: pointer;
+        }
+        .cardpic1{
+            width: 350px;
+            height: 200px;
+            border-top-left-radius:9px;
+            border-top-right-radius:9px;
+            border-bottom-left-radius:none;
+            border-bottom-right-radius:none;
+        }
+        #c2{
+            position: absolute;
+            top: 10%;
+            left: 36%;
+            width: 350px;
+            height: 400px;
+            border:1px solid rgb(189, 188, 188);
+            border-radius: 9px;
+            cursor: pointer;
+        }
+        #c3{
+            position: absolute;
+            top: 10%;
+            left: 66%;
+            width: 350px;
+            height: 400px;
+            border:1px solid rgb(189, 188, 188);
+            border-radius: 9px;
+            cursor: pointer;
+        }
+        .parking{
+            text-align: center;
+            color: #615f5f;
+            font-size: 1.7em;
+            font-family: 'Gill Sans', 'Gill Sans MT';
+        }
+        .btn{
+            position: absolute;
+            left: 30%;
+            width: 150px;
+            height: 50px;
+            padding: 10px;
+            background-color: #e64242;
+            border: none;
+            border-radius:20px;
+            color: #ffffff;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: large;
+            cursor: pointer;
+        }
+        .btn:hover{
+            background-color: #ff0000;
+        }
+        #subs{
+            position: absolute;
+            top: 230%;
+            left: 7%;
+            width: 84.5%;
+            height: 250px;
+            background-color: rgb(238, 235, 235);
+            z-index: -1;
+        }
+        #email{
+            width: 50%;
+            height: 150px;
+            position: absolute;
+            top: 50px;
+            left: 24%;
+            background-color: rgb(238, 235, 235);
+        }
+        #heading{
+            position: absolute;
+            left: 20px;
+            color: #3d3c3c;
+            font-size: xx-large;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        #heading2{
+            position: absolute;
+            top: 50px;
+            left: 20px;
+            color: #757474;
+            font-size: 18px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;   
+        }
+        #em{
+            position: absolute;
+            top: 90px;
+            width: 200px;
+            left: 20px;
+            height: 30px;
+            padding: 8px;
+            border: 1px solid #f3efef;
+            border-radius: 10px;
+            font: 1.3em 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        #btn2{
+            position: absolute;
+            top: 90px;
+            width: 100px;
+            left: 240px;
+            height: 50px;
+            padding: 8px;
+            border: none;
+            background-color: #e64242;
+            border-top-left-radius: none;
+            border-bottom-left-radius: none;
+            border-top-right-radius: 8px;
+            border-bottom-right-radius: 8px;
+            font: 1.2em 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color: rgb(235, 230, 230);
+        }
+        #btn2:hover{
+            cursor: pointer;
+        }
+        #lines{
+            position: absolute;
+            top: 270%;
+            width: 100%;
+            height: 5px;
+            background-color: #ff0000;
+        }
